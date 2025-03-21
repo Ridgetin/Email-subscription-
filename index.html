@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Email Subscription Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <form id="subscribeForm">
+      <svg class="email-icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24">
+        <path fill="#4CAF50" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+      <h2>Subscribe to Our Newsletter</h2>
+      <div class="input-group">
+        <input type="text" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="input-group">
+        <input type="email" id="email" placeholder="Your Email" required>
+      </div>
+      <button type="submit">Subscribe</button>
+    </form>
+    <div id="status"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
